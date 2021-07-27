@@ -19,7 +19,8 @@ function mostrar()
 			else{
 				precioFinal = precio - precio * .2;
 			}
-		
+			alert("El precio de la estadía es $" + precioFinal);
+			break;
 		case "Verano":
 			if (destino == "Bariloche"){
 				precioFinal = precio - precio * .2;
@@ -30,13 +31,15 @@ function mostrar()
 			else{
 				precioFinal = precio + precio * .2;
 			}
-
+			alert("El precio de la estadía es $" + precioFinal);
+			break;
 		case "Otoño":
 		case "Primavera":
 			if (destino != "Cordoba"){
 				precioFinal = precio + precio * .1;
 			}
-
+			alert("El precio de la estadía es $" + precioFinal);
+			break;
 	}
 	
 }//FIN DE LA FUNCIÓN
