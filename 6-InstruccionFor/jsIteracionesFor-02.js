@@ -1,5 +1,8 @@
 function mostrar()
 {
 
-	alert("ok");
+	for ( let control = 10 ; control >= 1 ; control--){
+		document.write(control + "<br>");
+	}
+	
 }
